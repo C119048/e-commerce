@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+/* ======== Nav bar Section========== */
+.header{
+    background: radial-gradient(#ffff,#ff5e0065);
+}
+.logo h1{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ff5e00;
+}
+.logo span{
+    font-style: italic;
+    font-weight: 400;
+    color: #555;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+section{
+    flex: 1;
+    text-align: right;
+}
+section ul{
+    display: inline-block;
+    list-style-type: none;
+}
+section ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+section ul li a:hover{
+    border-bottom: 2px solid #ff5e00;
+    color: #d38b49;
+}
+.containar{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* =============section herro========= */
+.row{
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    padding: 0 80px;
+    /* margin: 0 50px; */
+}
+.col-1{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0px;
+   
+}
+.col-1 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0px;
+}
+p{
+    color: #555;
+}
+.btn{
+    display: inline-block;
+    background-color: #ff5e00;
+    color: #ffff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #a55205;
+}
+.header .row{
+    margin-top: 70px;
+}
+/* ==========categorie========== */
+.Categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-height: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.smal-container{
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 25px;
+}
+/* ============feature product========== */
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition:  0.5s;
+}
+.col-4 img{
+    width: 100%;
+}
+.smal-container img{
+    border-radius: 10px;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background: #ff5e00;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.rating .fa{
+    color: #ff5e00;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
